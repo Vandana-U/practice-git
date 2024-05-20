@@ -5,6 +5,6 @@ Scanner sc=new Scanner(System.in);
 int n1=sc.nextInt();
 int n2=sc.nextInt();
 Demo d=new DemoImpl();
-d.sub(n1,n2);
+System.out.println(d.sub(n1,n2));
 }
 }
